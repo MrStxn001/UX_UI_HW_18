@@ -1,0 +1,125 @@
+p{
+    font: 24px;
+     font-family: Arial, Helvetica, sans-serif;
+  }
+  .Header {
+column-count: 2;
+  }
+  ul.navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0.0025rem;
+        background-color: #fffffb;
+        overflow: hidden;
+        display: block;
+      }
+      .ABOUTME {
+padding: 1rem;
+margin-inline-end: auto;
+color: #A54C00;
+font-weight: bold;
+      }
+  h2{
+    color: #A54C00;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h3{
+    color: #A54C00;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  #heroGrid1 {
+  
+  }
+  img.logo{
+width: 20%;
+  }
+  .HeroGrid {
+    display: grid;
+    background-color: #ffffff;
+    height: 400px;
+    grid-template-columns: 1fr 2fr;
+    position: center;
+  }
+  .profilecontent{
+    padding: 50px;
+    text-align: justify;
+    line-height: 30px;
+    color: #32312f;
+  }
+  img.profilepics{
+      width: 75%;
+  }
+  #Hello {
+    font-size: 32px;
+    padding: 2rem;
+    font-weight: regular;
+    color: #32312f;
+    text-align: start;
+  }
+  #Stanley {
+    font-size: 76px;
+    font-weight: regular;
+  }
+  .skills{
+    padding-top: 5rem;
+  }
+  .top{
+    grid-area: topRow;
+  }
+      ul.navbar li {
+        float: right;
+        margin: 20px;
+      }
+  .logo {
+    background-color: #D8D1C1;
+    width: fit-content;
+  }
+      ul.navbar li a {
+        display: block;
+        color: #A54C00;
+        text-align: center;
+        padding: 5px 30px;
+        text-decoration: none;
+      }
+  ul.navbar li a:hover {
+        background-color: #ddd;
+  }
+  ul.skillsTools {
+    color: #32312f;
+    line-height: 2rem;
+    column-count: 2;
+    font-weight:regular;
+    padding: 1rem;
+    list-style-type:circle;
+    max-width: 600px;
+  }
+  .button {
+    border: none;
+    background-color: #A54C00;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .resumeImg{
+    position: center;
+  }
+  ul.Footer {
+    column-count: 3;
+    color: #A54C00;
+    line-height: 2rem;
+    padding: 5rem;
+    background: #e7e1d2;
+    height: fit-content;
+    padding: 3rem;
+    margin: 5rem;
+    margin-bottom: 0%;
+  }
+  .list-item-no-bullet {
+    list-style-type: none;
+    color:#505050;
