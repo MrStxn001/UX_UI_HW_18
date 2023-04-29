@@ -123,3 +123,7 @@ width: 20%;
   .list-item-no-bullet {
     list-style-type: none;
     color:#505050;
+  }
+  img.workGridimg{
+    width: 100%;
+  }
