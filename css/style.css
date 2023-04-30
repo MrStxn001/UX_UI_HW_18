@@ -26,8 +26,6 @@ column-count: 2;
   h3{
     color: #A54C00;
     font-family: Arial, Helvetica, sans-serif;
-
-
   }
   #heroGrid1 {
   
@@ -144,3 +142,16 @@ width: 20%;
     display: block;
     margin: 0 auto;
   }
+  .resumeImg1{
+    padding: 5%;
+    max-width: 95%;
+    margin: 0 auto; /* centers the container horizontally */
+  }
+  img.resumeImg{
+    max-width: 90%;
+    height:fit-content;
+    display: block;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 600px) {
+    }
