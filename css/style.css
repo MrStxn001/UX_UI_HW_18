@@ -154,4 +154,13 @@ width: 20%;
     margin: 0 auto;
   }
   @media screen and (max-width: 600px) {
+    .HeroGrid {
+        display: block; /* Change display to block */
+        background-color: #ffffff;
+        height: auto; /* Change height to auto */
     }
+    .HeroGrid > * {
+        display: block; /* Change display of child elements to block */
+        margin-bottom: 20px; /* Add some spacing between child elements */
+    }
+}
