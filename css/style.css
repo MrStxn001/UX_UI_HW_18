@@ -73,7 +73,6 @@ width: 20%;
         margin: 20px;
       }
   .logo {
-    background-color: #D8D1C1;
     width: fit-content;
   }
       ul.navbar li a {
@@ -97,22 +96,25 @@ width: 20%;
   }
   .button {
     border: none;
-    background-color:#867E73;
+    background-color:#E1883C;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 2px 1px;
     cursor: pointer;
+  }
+  button:hover {
+    background-color:#A54C00;
   }
   .resumeImg{
     position: center;
   }
   ul.Footer {
     column-count: 3;
-    color: #A54C00;
+    color:#A54C00;
     line-height: 2rem;
     padding: 5rem;
     background: #f5f4f0;
@@ -128,7 +130,8 @@ width: 20%;
     text-decoration: none;   /* removes the underline */
   }
   a:hover { 
-    background-color:#867E73;
+    background-color:#A54C00;
+    color: white;
   }
   .workGrid {
     max-width: 95%;
