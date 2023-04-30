@@ -163,4 +163,12 @@ width: 20%;
         display: block; /* Change display of child elements to block */
         margin-bottom: 20px; /* Add some spacing between child elements */
     }
+  ul.navbar {
+      display: block; /* Change display to flex */
+      flex-direction: column; /* Display items as a column */
+  }
+  ul.navbar li {
+      margin-bottom: 10px; /* Add some spacing between items */
+      display: block;
+  }
 }
