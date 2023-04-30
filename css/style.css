@@ -114,16 +114,27 @@ width: 20%;
     color: #A54C00;
     line-height: 2rem;
     padding: 5rem;
-    background: #e7e1d2;
-    height: fit-content;
-    padding: 3rem;
-    margin: 5rem;
-    margin-bottom: 0%;
+    background: #f5f4f0;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
   }
   .list-item-no-bullet {
     list-style-type: none;
-    color:#505050;
+    text-decoration:none;
   }
-  img.workGridimg{
-    width: 100%;
+  a {
+    color:#32312f;            /* sets the text color */
+    text-decoration: none;   /* removes the underline */
+  }
+  .workGrid {
+    max-width: 95%;
+    margin: 0 auto; /* centers the container horizontally */
+    padding-bottom: 3%;
+  }  
+  .workGridimg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
   }
